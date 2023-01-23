@@ -2,7 +2,9 @@ import React from 'react'
 
 const Profile = () => {
   return (
-    <div>Profile</div>
+    <div className='px-[122px] border'>
+      <h1 className=''>Profile</h1>
+    </div>
   )
 }
 

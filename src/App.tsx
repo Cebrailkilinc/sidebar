@@ -4,18 +4,21 @@ import './App.css'
 import Recruiters from './components/Recruiters'
 import Content from './components/Content'
 import Share from './components/Share'
+import Profile from './components/Profile'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className='max-w-[1920px] h-screen xl:px-[320px] lg:[200px] dark:bg-black bg-[#F1F1F1]'>
-      <div className='flex items-center justify-between gap-[28px]'>
-        <div className="">Profile</div>
+    <div className='w-full  h-screen  dark:bg-black bg-[#F1F1F1]'>
+      <div className='flex items-center justify-center  gap-[28px]'>
+        <div className="">
+          <Profile/>
+        </div>
         <div className="">
           <Share/>
         </div>
-        <div className="">
+        <div >
           <Recruiters />
         </div>
       </div>

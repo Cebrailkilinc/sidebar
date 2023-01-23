@@ -10,8 +10,9 @@ module.exports = {
       container: {
         sm: "768px",
         md: "992px",
-        lg: "1200px",
+        lg: "1200px",        
         xl: "1440px",
+        xxl:"1655px"
       },
       colors: {
         blue: "#2E89E4",
@@ -24,10 +25,12 @@ module.exports = {
         lightPurple: "#9E0FE1",
         purple: "#AE2C5E",
         purpleLight: "#c47be6",
+        purpleCalendar:"#D246D4",
         red: "#FF5656",
         darkBg:"#1E1E1E",
         darkButtonBg:"#1F2328",
-        darkGray:"#787878"
+        darkGray:"#787878",
+        fireRed:"#F13131"
       },
     },  
   },

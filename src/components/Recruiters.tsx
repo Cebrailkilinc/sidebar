@@ -15,7 +15,7 @@ const Recruiters = () => {
               <h1 className='text-[16px] font-normal leading-[19px] text-black dark:text-white'>Aiony Haust</h1>
               <div className='flex items-center gap-[5px]'>
                 <h6 className="text-[12px] leading-[14px] text-[#999999]">Designer</h6>
-                <div className='w-[4px] h-[4px] bg-gray-400 bg-darkGray rounded-full ' ></div>
+                <div className='w-[4px] h-[4px] bg-gray-400  rounded-full ' ></div>
                 <div className='text-[12px] flex items-center text-[#999999] '>
                   <img src={flag} className='w-[14px]' />
                 </div>
