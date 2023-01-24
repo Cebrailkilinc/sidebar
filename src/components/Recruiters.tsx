@@ -14,18 +14,18 @@ const Recruiters = () => {
             <div className='flex flex-col'>
               <h1 className='text-[16px] font-normal leading-[19px] text-black dark:text-white'>Aiony Haust</h1>
               <div className='flex items-center gap-[5px]'>
-                <h6 className="text-[12px] leading-[14px] text-[#999999]">Designer</h6>
+                <h6 className="text-[12px] leading-[14px] text-gray">Designer</h6>
                 <div className='w-[4px] h-[4px] bg-gray-400  rounded-full ' ></div>
-                <div className='text-[12px] flex items-center text-[#999999] '>
+                <div className='text-[12px] flex items-center text-gray '>
                   <img src={flag} className='w-[14px]' />
                 </div>
               </div>
-              <h6 className="text-[12px] leading-[14px] text-[#2E89E4]">2hr ago</h6>
+              <h6 className="text-[12px] leading-[14px] text-blue">2hr ago</h6>
             </div>
           </div>
           <div>
             <button className='border border-[#D7E8FA] dark:border-darkBlue px-[14px] py-2 bg-[#F5F9FE] dark:bg-darkButtonBg rounded-3xl  '>
-              <div className='flex items-center gap-[5px] text-[#2E89E4]'>
+              <div className='flex items-center gap-[5px] text-blue'>
                 <AiOutlinePlus />
                 <h3 className='text-sm font-medium'>Follow</h3>
               </div>
@@ -33,7 +33,7 @@ const Recruiters = () => {
           </div>
         </div>        
         <div className='flex items-center gap-[5px] text-sm '>
-          <h1 className='text-[#999999] '>Wiew all</h1>
+          <h1 className='text-gray '>Wiew all</h1>
           <GrLinkNext color='red'/>
         </div>
       </div>
